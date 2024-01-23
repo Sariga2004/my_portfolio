@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio</title>
+
+
+</head>
+ 
+<body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">Sariga Sivakumar</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="#home" class="active" style="--navAni:1">Home</a></li>
+                <li><a href="#About" style="--navAni:3">About</a></li>
+                 <li><a href="#Skills" style="--navAni:3">Skills</a></li>
+                <li><a href="#Events" style="--navAni:4">Events</a></li>
+                <li><a href="#contact" style="--navAni:5">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <section id="home"class="container" >
+        <div class="main">
+            <div class="rounding-sec">
+                <div class="big-circle">
+                    <div class="icon-block">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIHDQ_CU0W38ktREqnPwdVlGCdA_e4xbaDK9NrjFOpD2AqdcajDV3c9_R3vp034nrC9eyvMThwY8ifNpmH3_8GMg_SzAsLKcWQeSskaVl8HjVtLWilhcBNwfep0yRxq-Z_klBXoYTVX0BaE39VwJ2a-drZup5i8owkdaZF0-KhCaodrtN2Rii9HPZrdlk/s1600/github.png"
+                            alt="" />
+                    </div>
+                    <div class="icon-block">
+                       <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoPvxJtYJq2-7BDn6LGcQ6QsT3Bo0vxkKu8WAOZnqsHIiTtGJqsHHHWlqqYN4iQFlVaqTaq7AFkWbY5Wrqxvk9Se1Wc_rjA7UKZoXHoxqSWXyaTg9aL9RC37H78NTnT4TwePdwqEYwVw8VxtjPoy6eG-f7RTJhX0JCa0lPmpfaz69hJ1ZHI9seBrUuvf4/s64/instagram.png"
+                            alt="" />
+                    </div>
+                    <div class="icon-block">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-WWnXxgKNxwqarx8Vr_xpaCcwOQbv7bpFxWXy1o7DCq7jZNiT3CFdAo52AvJol-C-3InAzj6B4isdJVwVCAlUY9jxqgM43wDXrmfsqL4PGr-fsBG0YjcOzwAHFscoDXg3EGlhupxjKRwrMe7Y2bX9VzTc-RY95A03bV1avKnjwJZjh0HKbGZDEa73mPU/s1600/telegram.png"
+                            alt="" />
+                    </div>
+                    <div class="icon-block">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejpFbnjtnjhErKo-66_ATecAMmYtSrLzQYdIRMRAxLHtgMUZKnA6jGJQsTMnrniZmMhTZydWkR-l2cpZcGEBGlI4Ptl9ogR-NSPF2wNO5FQdMlL_xaGHQfPnSRIh0Lg4JX0PJLjg9p-tAL9Y8qFbbuGIW3YoolXiMja2qujyDjcFPYGzsPu-RyHle2Jc/s1600/youtube.png" alt="" />
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="sari25.jpg" alt="" class="img-w">
+                </div>
+            </div>
+            <div class="detail">
+                <h3>Hello,I'm</h3>
+                <h1 style="white-space: nowrap;"><span style="color:#f9532d;">Sariga</span> Sivakumar</h1>
+
+                <!--<p>A passionate and driven student with a keen interest in Web Designing</p>-->
+                <div class="btn-container"><button onclick="window.open('cv.pdf')">Download CV</button>
+            
+            </div>
+        </div>
+    </section>
+  
+<section  id ="About" class="bg">
+    <div id="reviews-container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>Hello there! I'm a passionate third-year student currently immersed in the world of Electrical and Computer Engineering (ECE). Welcome to my academic journey!</p>
+                    
+                </div>
+                <div class="swiper-slide">
+                    <p>"I achieved an impressive 93% in my 10th-grade exams and followed it up with a stellar 94% in my 12th-grade exams."</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>"I am currently maintaining a Cumulative Grade Point Average (CGPA) of 8.33 as of my fourth semester."</p>
+                    
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+    </section>
+    
+    <section id="Skills" class="alternate-template">
+        <h3 style="text-align: center ;font-family: 'Times New Roman', Times, serif;">My Skill Proficiency </h3></center>
+        <div class="skills-container">
+            <canvas id="radarChart"></canvas>
+            
+        </div>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var ctx = document.getElementById('radarChart').getContext('2d');
+    
+                new Chart(ctx, {
+                    type: 'radar',
+                    data: {
+                        labels: ['HTML', 'CSS', 'JavaScript', 'C', 'Python', 'SQL'],
+                        datasets: [{
+                            label: 'Skill Proficiency',
+                            data: [80, 80, 60, 80, 85, 65],
+                            backgroundColor: 'rgba(52, 152, 219, 0.3)',
+                            borderColor: 'rgba(52, 152, 219, 1)',
+                            borderWidth: 2,
+                            pointRadius: 4,
+                            pointBackgroundColor: 'rgba(52, 152, 219, 1)',
+                            pointBorderColor: '#fff',
+                            pointHoverRadius: 5,
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: 'rgba(52, 152, 219, 1)',
+                        }]
+                    },
+                    options: {
+                        scale: {
+                            angleLines: {
+                                display: false
+                            },
+                            ticks: {
+                                suggestedMin: 0,
+                                suggestedMax: 100,
+                                callback: function(value, index, values) {
+                                    return ''; // Hide the default labels
+                                }
+                            }
+                        },
+                        legend: {
+                            display: false // Hide the legend
+                        },
+                        responsive: true, // Make the chart responsive
+                        maintainAspectRatio: false, // Allow the chart to adjust its size
+                        plugins: {
+                            afterFit: function(scale) {
+                                scale.width = 100; // Set the width for the labels
+                            }
+                        }
+                    }
+                });
+            });
+        </script>
+        <h2>Technical Skills</h2><br>
+        <ul>
+            <li>Programming Languages: [C, Python]</li>
+            <li>Web Technologies: [HTML, CSS, JavaScript, React]</li>
+            <li>Database Management: [SQL, MongoDB]</li><br>
+        </ul>
+    
+        <h2>Soft Skills</h2><br>
+        <ul>
+            <li>Communication and Collaboration</li>
+            <li>Problem-Solving and Critical Thinking</li>
+            <li>Adaptability and Quick Learner</li>
+        </ul>
+      
+    </section>
+    <section id="Events" style=" background-image: url('https://i.pinimg.com/736x/bf/28/34/bf2834b9fcbc95875b6e64b7ddd4caa4.jpg'); display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; padding: 0;">
+        <div class="timeline-container">
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <h3>Idea Presentation</h3>
+                    <p>"I actively engaged in the presentation and collaborative exploration of innovative concepts at BIT, contributing to dynamic discussions and fostering a creative environment for idea exchange"</p>
+                </li>
+                <li class="timeline-item">
+                    <h3>Project Presentation</h3>
+                    <p>"I showcased my project on phishing URL detection at KEC, an event organized by IEEE, demonstrating my expertise in the field of cybersecurity and contributing to discussions on the importance of threat detection in the digital landscape."</p>
+                </li>
+                <li class="timeline-item">
+                    <h3>Project Presentation</h3>
+                    <p>"I presented my project up to the Technology Business Incubator (TBI) level in the Smart India Hackathon (SIH), showcasing my innovative solution and its potential for real-world applications."</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact"></section>
+    <div class="contact-container">
+        <h2 style="text-align: center;color: white;">Contact Me</h2>
+        <div class="contact-info">
+            <p>Email: sarigass2004@gamil.com</p>
+            <p>Phone: +91-8056921485</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/sariga-s-s-5aa0b7225/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BYHO%2B%2FMrkRG2l6QQkzsgIPQ%3D%3D" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/riga_riya" target="_blank" title="Instagram Profile"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+      
+    
+   
+  
+</body>
+</html>
